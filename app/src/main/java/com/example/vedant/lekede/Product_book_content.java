@@ -86,13 +86,10 @@ public class Product_book_content extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent mailClient = new Intent(Intent.ACTION_SEND);
-                    mailClient.setType("text/plain")
-                            .setData(Uri.parse(emailadd))
-                            .putExtra(Intent.EXTRA_SUBJECT, "About your add on LeKeDe")
-                            .putExtra(Intent.EXTRA_TEXT, "hello. this is a message sent from LeKeDe app :-)")
-                            .setClassName("com.google.android.gm", "com.google.android.gm.ConversationListActivityGmail");
-                    startActivity(mailClient);
+                    Intent mailClient = new Intent(Intent.ACTION_SENDTO,Uri.fromParts("mailto",emailadd,null));
+                    mailClient.putExtra(Intent.EXTRA_SUBJECT, "About your add on LeKeDe")
+                            .putExtra(Intent.EXTRA_TEXT, "hello,This is a message sent from LeKeDe app ");
+                    startActivity(Intent.createChooser(mailClient,"complete action using....."));
                 }
                 catch (Exception e)
                 {
