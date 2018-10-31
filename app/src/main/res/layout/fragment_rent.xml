@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/get_image"
+            android:background="#ede4e4"
+            android:adjustViewBounds="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:drawableRight="@drawable/right_pointer"
+            android:text="Next"
+            android:id="@+id/next_to_category"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_border"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="76dp"
+            android:layout_marginEnd="17dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/darker_gray"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/cancel_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/cancel"
+            app:backgroundTint="@android:color/darker_gray" />
+</RelativeLayout>

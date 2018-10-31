@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/button_border"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/cancel_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do You Want To Cancel?????"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <RadioGroup
+        android:id="@+id/yes_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Yes"
+            android:textColor="#000"/>
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-32dp"
+            android:text="No"
+            android:textColor="#000"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/okay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okay"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_border"
+        android:textColor="#000"/>
+</LinearLayout>

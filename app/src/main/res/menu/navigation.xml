@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_put_on_rent"
+        android:icon="@drawable/if_camera_shutter"
+        android:title="Put On Rent"
+        />
+
+    <item
+        android:id="@+id/navigation_earlier_post"
+        android:icon="@drawable/early_post"
+        android:title="Earlier Posts"
+        />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/icons8_customer_32"
+        android:title="Profile" />
+</menu>

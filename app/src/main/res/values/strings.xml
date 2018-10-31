@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">LeKeDe</string>
+    <string name="facebook_app_id">311554792987389</string>
+    <string name="fb_login_protocol_scheme">fb311554792987389</string>
+    <string name="title_activity_main__page">Main_Page</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main_page">MainPage</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="sub_catgory_mobile">
+        <item>Click Me to select</item>
+        <item>Mobile/Tablet</item>
+        <item>Computer/Laptop</item>
+        <item>Mobile/Tablet Accessories</item>
+        <item>Computer/Laptop Accessories</item>
+    </string-array>
+
+    <string-array name="company_mobile">
+        <item>Click Me to select</item>
+        <item>Samsung</item>
+        <item>RedMi</item>
+        <item>Lenovo</item>
+        <item>Moto</item>
+        <item>Vivo</item>
+        <item>Asus</item>
+        <item>Oppo</item>
+        <item>RealMe</item>
+        <item>MicroMax</item>
+        <item>Nokia</item>
+        <item>Zolo</item>
+        <item>Apple</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="timespan">
+        <item> </item>
+        <item>Days</item>
+        <item>Months</item>
+        <item>Years</item>
+    </string-array>
+
+    <string-array name="company_computer_laptop">
+        <item>HP</item>
+        <item>Dell</item>
+        <item>Lenovo</item>
+        <item>Samsung</item>
+        <item>Asus</item>
+        <item>Apple</item>
+        <item>Toshiba</item>
+        <item>Acer</item>
+        <item>Microsoft</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="sub_category_tv">
+        <item>Televisions</item>
+        <item>Washing Manchines</item>
+        <item>Refrigerators</item>
+        <item>Kitchen Appliances</item>
+        <item>Small Home Appliances</item>
+        <item>Microwave Ovens</item>
+        <item>Water Purifiers</item>
+        <item>Air Conditioners</item>
+        <item>Chimneys</item>
+        <item>Dish Washers</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="company_tv">
+        <item>Samsung</item>
+        <item>Sony</item>
+        <item>Onida</item>
+        <item>Videocon</item>
+        <item>Philips</item>
+        <item>Panasonic</item>
+        <item>Micromax</item>
+        <item>Toshiba</item>
+        <item>LG</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="company_washing">
+        <item>Samsung</item>
+        <item>Haier</item>
+        <item>Godrej</item>
+        <item>Panasonic</item>
+        <item>IFB</item>
+        <item>whirlpool</item>
+        <item>Siemens</item>
+        <item>Bosch</item>
+        <item>LG</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="company_refigerator">
+        <item>Samsung</item>
+        <item>Videocon</item>
+        <item>Panasonic</item>
+        <item>LG</item>
+        <item>Bosch</item>
+        <item>Godrej</item>
+        <item>Siemens</item>
+        <item>Electrolux</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="company_microwave_owens">
+        <item>LG</item>
+        <item>Samsung</item>
+        <item>Godrej</item>
+        <item>IFB</item>
+        <item>Siemens</item>
+        <item>Electrolux</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="company_water">
+        <item>Kent</item>
+        <item>Pureit</item>
+        <item>Aquaguard</item>
+        <item>Tata</item>
+        <item>Livpure</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="company_air">
+        <item>Samsung</item>
+        <item>Blue Star</item>
+        <item>Videocon</item>
+        <item>Panasonic</item>
+        <item>Daikin</item>
+        <item>Whirpool</item>
+        <item>LG</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="sub_category_sport">
+        <item>Clik me to select</item>
+        <item>Sports</item>
+        <item>Fitness</item>
+    </string-array>
+
+    <string-array name="sub_category_car">
+        <item>Clik me to select</item>
+        <item>Car</item>
+        <item>MotorBike</item>
+        <item>Bicycles</item>
+        <item>Industrial</item>
+    </string-array>
+
+    <string-array name="company_car_bike">
+        <item>Suzuki</item>
+        <item>Honda</item>
+        <item>Ford</item>
+        <item>Tata</item>
+        <item>Hyundai</item>
+        <item>Renault-Nissan</item>
+        <item> Volkswagen</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="sub_category_fashion">
+        <item>Clik me to select</item>
+        <item>Men</item>
+        <item>Women</item>
+        <item>Kids and Baby</item>
+    </string-array>
+
+    <string-array name="sub_category_properties">
+        <item>Appartments</item>
+        <item>Houses and Villas</item>
+        <item>Shops and Offices</item>
+        <item>Lands and Plots</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Mobile,Computer,Accessories</item>
+        <item>TV,Appliances,Electronics</item>
+        <item>Home And Furniture</item>
+        <item>Sports,Fitness</item>
+        <item>Fashion</item>
+        <item>Car,Bikes,Services</item>
+        <item>Books</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_product_car_content">Product_car_content</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

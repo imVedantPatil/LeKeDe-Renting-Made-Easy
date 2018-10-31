@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_category"
+    android:background="#fff">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mobile_computer"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/mobile_computer"
+                android:text="Mobiles,Computer,   Accessories" />
+
+            <Button
+                android:id="@+id/tv_electronics"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="tv,appliances,   electronics"
+                android:drawableTop="@drawable/tv_appliances"
+                android:background="@drawable/button_border"
+                android:drawablePadding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="140dp">
+
+            <Button
+                android:id="@+id/home_furniture"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/furniture"
+                android:text="home and furniture"
+                android:background="@drawable/button_border"
+                />
+
+            <Button
+                android:id="@+id/Sports"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-2dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/sports_fitness"
+                android:text="Sports,Fitness"
+                android:background="@drawable/button_border"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="280dp">
+
+            <Button
+                android:id="@+id/fashion"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/fashion"
+                android:text="fashion" />
+
+            <Button
+                android:id="@+id/car_industrial"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/car_bike_services"
+                android:text="Cars,Bikes,Services"
+                android:background="@drawable/button_border"
+               />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="420dp">
+
+            <Button
+                android:id="@+id/books"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/books"
+                android:text="all books" />
+
+            <Button
+                android:id="@+id/other_item"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/other_item"
+                android:text="All Other Items" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="560dp"
+            android:layout_margin="10dp">
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Let's put it in a category"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cancel_post_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/cancel"
+        app:backgroundTint="@android:color/darker_gray" />
+</RelativeLayout>
+</ScrollView>

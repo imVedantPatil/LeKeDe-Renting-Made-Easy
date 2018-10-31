@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "903913695572",
+    "firebase_url": "https://lekede-7ac14.firebaseio.com",
+    "project_id": "lekede-7ac14",
+    "storage_bucket": "lekede-7ac14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903913695572:android:042d03cbfadc2454",
+        "android_client_info": {
+          "package_name": "com.example.vedant.lekede"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903913695572-0vvvnuudt4d763d4g51d55foij2cvdot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vedant.lekede",
+            "certificate_hash": "62665cfffe32b001a90a2cfc8957c587b3be7ebe"
+          }
+        },
+        {
+          "client_id": "903913695572-nci9v3r2m71vebgj978teu0e91fpli8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArtNo9bJibEuYDQVQmuy0zdYeWqkQLiUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903913695572-nci9v3r2m71vebgj978teu0e91fpli8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.DeviceDefault">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Search by....."
+        />
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_book"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_book"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_car"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_car"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_fashion"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_fashion"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_furniture"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_furniture"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_sports"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_sports"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_mobile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_mobile"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_electronics"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_electronics"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/select_card_other"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/other"
+                app:civ_border_color="#000000"
+                app:civ_border_width="2dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="65dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Books"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Cars"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:text="Fashion"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="Furniture"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Fitness"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="8dp"
+                android:text="Mobile"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Electronics"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Other"
+                android:textColor="#000" />
+        </LinearLayout>
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_id"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
